@@ -1,9 +1,1 @@
-{
-  "functions": {
-    "api/hello": {
-      "runtime": "python",
-      "code": "main.py",
-      "handler": "handler"
-    }
-  }
-}
+
