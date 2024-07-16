@@ -1,4 +1,12 @@
-
 {
-  "redirects": [{ "source": "/", "destination": "" }]
+  "version": 2,
+  "builds": [
+    {
+      "src": "Python_JS.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "5mb"
+      }
+    }
+  ]
 }
