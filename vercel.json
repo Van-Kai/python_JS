@@ -1,16 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "Python_JS.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "5mb"
-      }
-    }
-  ]
-}
-{
   "functions": {
     "api/php.php": {
       "runtime": "vercel-php@0.3.1",
