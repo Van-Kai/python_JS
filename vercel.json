@@ -10,3 +10,19 @@
     }
   ]
 }
+{
+  "functions": {
+    "api/php.php": {
+      "runtime": "vercel-php@0.3.1",
+      "excludeFiles": "",
+      "memory": 256,
+      "maxDuration": 5
+    }
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/Python_JS.py"
+    }
+  ]
+}
